@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
 }
+.body {
+  font-size: 12px;
+}
 
 .title a {
   color: #0070f3;
@@ -81,6 +84,11 @@
 
 .logo {
   height: 1em;
+}
+
+.board {
+  width: 450px;
+  margin: 0 auto;
 }
 
 @media (max-width: 600px) {
