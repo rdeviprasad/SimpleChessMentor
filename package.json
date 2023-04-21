@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "chess.js": "^1.0.0-beta.5",
     "next": "latest",
     "react": "18.2.0",
     "react-chessboard": "^2.1.3",
