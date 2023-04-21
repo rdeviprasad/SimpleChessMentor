@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Chessboard } from "react-chessboard";
+import SCMBoard from '../components/SCMBoard';
 
 export default function Home() {
   return (
@@ -8,9 +8,7 @@ export default function Home() {
       <Head>
         <title>SimpleChessMentor</title>
       </Head>
-      <div className={ styles.board }>
-        <Chessboard id="BasicBoard" />
-      </div>
+      <SCMBoard />
     </div>
-  )
+  );
 }
